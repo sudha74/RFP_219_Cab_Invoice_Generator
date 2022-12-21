@@ -3,6 +3,7 @@ package com.bridgelabz;
 import java.util.Objects;
 
 public class InvoiceSummary {
+
     int numberOfRides;
     double totalFare;
     double avgFare;
@@ -41,4 +42,3 @@ public class InvoiceSummary {
         return Objects.hash(numberOfRides, totalFare, avgFare);
     }
 }
-
